@@ -5,7 +5,7 @@
 An HTML CV that converts to PDF using [html5-to-pdf](https://github.com/peterdemartini/html5-to-pdf)
 It uses Pug as the templating engine. 
 
-Adapted from [https://github.com/dwjohnston/cv](https://github.com/dwjohnston/cv).
+Forked from [https://github.com/dwjohnston/cv](https://github.com/dwjohnston/cv).
 ## Usage
 
 `npm install`
