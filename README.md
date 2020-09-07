@@ -2,14 +2,10 @@
 
 ##
 
-An HTML CV that converts to PDF.
-
-Uses [html5-to-pdf](https://github.com/peterdemartini/html5-to-pdf) a pretty handy node module.
-
-There are quite a few html to pdf converters out there, but I found a lot of them are either very expensive, or they don't support HTML5/flexbox.
-
+An HTML CV that converts to PDF using [html5-to-pdf](https://github.com/peterdemartini/html5-to-pdf)
 It uses Pug as the templating engine. 
 
+Adapted from [https://github.com/dwjohnston/cv](https://github.com/dwjohnston/cv).
 ## Usage
 
 `npm install`
@@ -31,7 +27,5 @@ The main html file to edit is `src/index.pug`
 ## Some gotchas
 
 Make sure you your browser set at zoom 100% when creating your HTML, otherwise the generated PDF won't match.
-
-There is a bug on `<a>` tags, so I say just don't use them. Just use `span.link` tags instead. See: https://github.com/peterdemartini/html5-to-pdf/issues/10
 
 There appears to be a bug where content within `<td>` tags loses it style, so as a work around, style `<span>` within `<td>` tags.
